@@ -1,13 +1,12 @@
 import { EntityStore, StoreConfig } from '@datorama/akita';
 
-import { TranslationsModel, TranslationsState } from './translations.model';
+import {
+	createInitialTranslationsState,
+	TranslationsModel,
+	TranslationsState,
+} from './translations.model';
 
-export const createInitialTranslationsState = (): TranslationsState => ({
-	activeField: null,
-	fields: [],
-});
-
-@StoreConfig({ name: 'translations' })
+@StoreConfig({ name: 'translations', idKey: 'id' })
 export class TranslationsStore extends EntityStore<TranslationsState, TranslationsModel> {
 	constructor() {
 		super(createInitialTranslationsState());

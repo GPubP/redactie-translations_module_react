@@ -8,3 +8,5 @@ export interface TranslationsModel {
 }
 
 export type TranslationsState = EntityState<TranslationsModel, string>;
+
+export const createInitialTranslationsState = (): TranslationsState => ({});

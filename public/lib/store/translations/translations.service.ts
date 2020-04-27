@@ -20,14 +20,10 @@ export class TranslationsService {
 			.pipe(first())
 			.toPromise();
 
-		console.log(coreInterfaceTranslation);
-
 		const translationFile = await getInterfaceTranslationFile(
 			coreInterfaceTranslation.uuid,
 			lang
 		);
-
-		console.log(translationFile);
 
 		if (!translationFile) {
 			return null;
