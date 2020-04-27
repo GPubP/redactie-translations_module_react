@@ -1,6 +1,6 @@
 import { registerTranslationsAPI } from './lib/api';
-import { getInterfaceTranslations } from './lib/services/interfaceTranslations';
+import { interfaceTranslationService } from './lib/store/interfaceTranslations';
 
-getInterfaceTranslations();
+interfaceTranslationService.setCoreTranslation();
 
 registerTranslationsAPI();
