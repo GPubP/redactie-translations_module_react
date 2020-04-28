@@ -17,8 +17,7 @@ export const useTranslation: UseTranslation = (module, lang) => {
 	const [transF, setTransF] = useState<TranslateFunc>();
 
 	useEffect(() => {
-		const handler = (): void =>
-			(console.log('update') as any) || setTransF(getI18nInstance(module, lang));
+		const handler = (): void => setTransF(getI18nInstance(module, lang));
 
 		// Listen for i18nInstance resource changes
 		(i18nInstance as any).store.on('added', handler);
