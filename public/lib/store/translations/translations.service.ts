@@ -1,4 +1,4 @@
-import { first } from 'rxjs/operators';
+import { filter, first } from 'rxjs/operators';
 
 import { getInterfaceTranslationFile, I18NextTranslations } from '../../services/translationFiles';
 import { interfaceTranslationQuery } from '../interfaceTranslations';
@@ -17,11 +17,14 @@ export class TranslationsService {
 		}
 
 		const coreInterfaceTranslation = await interfaceTranslationQuery.core$
-			.pipe(first())
+			.pipe(
+				filter(interfaceTranslation => !!interfaceTranslation),
+				first()
+			)
 			.toPromise();
 
 		const translationFile = await getInterfaceTranslationFile(
-			coreInterfaceTranslation.uuid,
+			coreInterfaceTranslation?.uuid,
 			lang
 		);
 
