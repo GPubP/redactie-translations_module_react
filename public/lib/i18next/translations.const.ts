@@ -1,6 +1,6 @@
 import { tKey } from './tKey';
 
-const CORE_TRANSLATIONS = {
+const CORE_TRANSLATIONS = Object.freeze({
 	// ------- GENERAL TRANSLATIONS -------
 	'GENERAL_SYSTEM-NAME': tKey('GENERAL_SYSTEM-NAME', 'Systeemnaam'),
 
@@ -37,10 +37,6 @@ const CORE_TRANSLATIONS = {
 	TABLE_AUTHOR: tKey('TABLE_AUTHOR', 'Auteur'),
 	TABLE_STATUS: tKey('TABLE_STATUS', 'Status'),
 	TABLE_ONLINE: tKey('TABLE_ONLINE', 'Online'),
-};
-
-console.log(CORE_TRANSLATIONS);
-
-Object.freeze(CORE_TRANSLATIONS);
+});
 
 export { CORE_TRANSLATIONS };
