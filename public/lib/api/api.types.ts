@@ -1,5 +1,5 @@
 import { TranslateFunc } from '../i18next/useTranslation';
-import { TranslationSchema } from '../services/interfaceTranslations';
+import { TranslationMetaSchema, TranslationSchema } from '../services/interfaceTranslations';
 import { I18NextTranslations, TranslationFile } from '../services/translationFiles';
 
 export interface TranslationsAPI {
@@ -13,3 +13,11 @@ export interface TranslationsAPI {
 		useModuleTranslation?: (module: string, lang: string) => [TranslateFunc];
 	};
 }
+
+export {
+	I18NextTranslations,
+	TranslationFile,
+	TranslationSchema,
+	TranslationMetaSchema,
+	TranslateFunc,
+};
