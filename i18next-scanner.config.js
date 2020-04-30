@@ -25,12 +25,6 @@ module.exports = {
 			jsonIndent: 2,
 			lineEnding: '\n',
 		},
-		// nsSeparator: false, // namespace separator
-		// keySeparator: false, // key separator
-		// interpolation: {
-		// 	prefix: '{{',
-		// 	suffix: '}}',
-		// },
 		transform: typescriptTransform({ extensions: ['.tsx', '.ts'] }),
 	},
 };
