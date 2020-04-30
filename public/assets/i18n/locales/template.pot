@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "GENERAL_SYSTEM-NAME"
+msgstr "Systeemnaam"
+
+msgid "ROUTING_UPDATE"
+msgstr "beheer"
+
+msgid "ROUTING_CREATE"
+msgstr "aanmaken"
+
+msgid "FILTER_TITLE"
+msgstr "Filter"
+
+msgid "FILTER_CLEAR"
+msgstr "Alles leegmaken"
+
+msgid "FILTER_APPLY"
+msgstr "Toepassen"
+
+msgid "STATUS_TITLE"
+msgstr "Status"
+
+msgid "STATUS_ACTIVE"
+msgstr "Actief"
+
+msgid "STATUS_NON-ACTIVE"
+msgstr "Niet actief"
+
+msgid "BUTTON_CREATE-NEW"
+msgstr "Nieuw maken"
+
+msgid "BUTTON_SAVE"
+msgstr "Bewaar"
+
+msgid "BUTTON_SAVE-NEXT"
+msgstr "Bewaar en ga verder"
+
+msgid "BUTTON_CANCEL"
+msgstr "Annuleer"
+
+msgid "BUTTON_ADD"
+msgstr "Toevoegen"
+
+msgid "BUTTON_ADD-SECTION"
+msgstr "Sectie toevoegen"
+
+msgid "BUTTON_ACTIVATE"
+msgstr "Activeren"
+
+msgid "BUTTON_DEACTIVATE"
+msgstr "Deactiveren"
+
+msgid "TABLE_RESULT"
+msgstr "Activeren"
+
+msgid "TABLE_NAME"
+msgstr "Deactiveren"
+
+msgid "TABLE_TYPE"
+msgstr "Type"
+
+msgid "TABLE_DESCRIPTION"
+msgstr "Beschrijving"
+
+msgid "TABLE_LAST-MODIFIED"
+msgstr "Laatst bijgewerkt"
+
+msgid "TABLE_AUTHOR"
+msgstr "Auteur"
+
+msgid "TABLE_STATUS"
+msgstr "Status"
+
+msgid "TABLE_ONLINE"
+msgstr "Online"
