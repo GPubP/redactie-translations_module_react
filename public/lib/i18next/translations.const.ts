@@ -3,6 +3,7 @@ import { tKey } from './tKey';
 const CORE_TRANSLATIONS = Object.freeze({
 	// ------- GENERAL TRANSLATIONS -------
 	'GENERAL_SYSTEM-NAME': tKey('GENERAL_SYSTEM-NAME', 'Systeemnaam'),
+	GENERAL_COPY: tKey('GENERAL_COPY', 'Kopieer'),
 
 	// ------- ROUTING TRANSLATIONS -------
 	ROUTING_UPDATE: tKey('ROUTING_UPDATE', 'beheer'),
@@ -18,6 +19,9 @@ const CORE_TRANSLATIONS = Object.freeze({
 	STATUS_ACTIVE: tKey('STATUS_ACTIVE', 'Actief'),
 	'STATUS_NON-ACTIVE': tKey('STATUS_NON-ACTIVE', 'Niet actief'),
 
+	// ------- REMOVE-CARD TRANSLATIONS -------
+	REMOVE_TITLE: tKey('REMOVE_TITLE', 'Verwijdern'),
+
 	// ------- BUTTON TRANSLATIONS -------
 	'BUTTON_CREATE-NEW': tKey('BUTTON_CREATE-NEW', 'Nieuw maken'),
 	BUTTON_SAVE: tKey('BUTTON_SAVE', 'Bewaar'),
@@ -27,6 +31,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	'BUTTON_ADD-SECTION': tKey('BUTTON_ADD-SECTION', 'Sectie toevoegen'),
 	BUTTON_ACTIVATE: tKey('BUTTON_ACTIVATE', 'Activeren'),
 	BUTTON_DEACTIVATE: tKey('BUTTON_DEACTIVATE', 'Deactiveren'),
+	BUTTON_REMOVE: tKey('BUTTON_REMOVE', 'Verwijderen'),
 
 	// ------- TABLE TRANSLATIONS -------
 	TABLE_RESULT: tKey('TABLE_RESULT', 'Activeren'),
