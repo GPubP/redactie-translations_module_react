@@ -6,6 +6,9 @@ export type TranslateFunc = (keys: string | string[]) => string;
 export type UseTranslation = (module: string, lang: string) => [TranslateFunc];
 
 const getI18nInstance = (module: string, lang: string) => {
+	/**
+	 * This wrapped in a function because setState will execute function en set the result in state instead of directly setting te function
+	 */
 	return (): TranslateFunc => keys =>
 		i18nInstance.t(keys, {
 			lng: lang,
