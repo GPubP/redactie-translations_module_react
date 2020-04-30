@@ -7,3 +7,5 @@ interfaceTranslationService
 	.then(() => translationsService.getCoreTranslationFile('nl_BE'));
 
 registerTranslationsAPI();
+
+export * from './lib/api/api.types';
