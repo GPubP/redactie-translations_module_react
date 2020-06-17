@@ -34,8 +34,8 @@ const CORE_TRANSLATIONS = Object.freeze({
 	BUTTON_REMOVE: tKey('BUTTON_REMOVE', 'Verwijderen'),
 
 	// ------- TABLE TRANSLATIONS -------
-	TABLE_RESULT: tKey('TABLE_RESULT', 'Activeren'),
-	TABLE_NAME: tKey('TABLE_NAME', 'Deactiveren'),
+	TABLE_RESULT: tKey('TABLE_RESULT', 'Resultaten'),
+	TABLE_NAME: tKey('TABLE_NAME', 'Naam'),
 	TABLE_TYPE: tKey('TABLE_TYPE', 'Type'),
 	TABLE_DESCRIPTION: tKey('TABLE_DESCRIPTION', 'Beschrijving'),
 	'TABLE_LAST-MODIFIED': tKey('TABLE_LAST-MODIFIED', 'Laatst bijgewerkt'),
