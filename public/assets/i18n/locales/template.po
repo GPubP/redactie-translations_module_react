@@ -4,17 +4,13 @@ msgstr ""
 "mime-version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Language: nl_BE\n"
-"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 msgid "GENERAL_SYSTEM-NAME"
 msgstr "Systeemnaam"
+
+msgid "GENERAL_COPY"
+msgstr "Kopieer"
 
 msgid "ROUTING_UPDATE"
 msgstr "beheer"
@@ -40,6 +36,9 @@ msgstr "Actief"
 msgid "STATUS_NON-ACTIVE"
 msgstr "Niet actief"
 
+msgid "REMOVE_TITLE"
+msgstr "Verwijdern"
+
 msgid "BUTTON_CREATE-NEW"
 msgstr "Nieuw maken"
 
@@ -48,6 +47,9 @@ msgstr "Bewaar"
 
 msgid "BUTTON_SAVE-NEXT"
 msgstr "Bewaar en ga verder"
+
+msgid "BUTTON_NEXT"
+msgstr "Ge verder"
 
 msgid "BUTTON_CANCEL"
 msgstr "Annuleer"
@@ -64,11 +66,14 @@ msgstr "Activeren"
 msgid "BUTTON_DEACTIVATE"
 msgstr "Deactiveren"
 
+msgid "BUTTON_REMOVE"
+msgstr "Verwijderen"
+
 msgid "TABLE_RESULT"
-msgstr "Activeren"
+msgstr "Resultaten"
 
 msgid "TABLE_NAME"
-msgstr "Deactiveren"
+msgstr "Naam"
 
 msgid "TABLE_TYPE"
 msgstr "Type"

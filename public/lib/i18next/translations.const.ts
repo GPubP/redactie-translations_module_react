@@ -26,6 +26,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	'BUTTON_CREATE-NEW': tKey('BUTTON_CREATE-NEW', 'Nieuw maken'),
 	BUTTON_SAVE: tKey('BUTTON_SAVE', 'Bewaar'),
 	'BUTTON_SAVE-NEXT': tKey('BUTTON_SAVE-NEXT', 'Bewaar en ga verder'),
+	BUTTON_NEXT: tKey('BUTTON_NEXT', 'Ge verder'),
 	BUTTON_CANCEL: tKey('BUTTON_CANCEL', 'Annuleer'),
 	BUTTON_ADD: tKey('BUTTON_ADD', 'Toevoegen'),
 	'BUTTON_ADD-SECTION': tKey('BUTTON_ADD-SECTION', 'Sectie toevoegen'),
