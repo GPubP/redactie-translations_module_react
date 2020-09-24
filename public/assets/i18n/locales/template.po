@@ -5,6 +5,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: nl_BE\n"
 
 msgid "GENERAL_SYSTEM-NAME"
 msgstr "Systeemnaam"
@@ -49,7 +50,7 @@ msgid "BUTTON_SAVE-NEXT"
 msgstr "Bewaar en ga verder"
 
 msgid "BUTTON_NEXT"
-msgstr "Ge verder"
+msgstr "Ga verder"
 
 msgid "BUTTON_CANCEL"
 msgstr "Annuleer"
@@ -68,6 +69,9 @@ msgstr "Deactiveren"
 
 msgid "BUTTON_REMOVE"
 msgstr "Verwijderen"
+
+msgid "BUTTON_ARCHIVE"
+msgstr "Archiveren"
 
 msgid "TABLE_RESULT"
 msgstr "Resultaten"
@@ -92,3 +96,9 @@ msgstr "Status"
 
 msgid "TABLE_ONLINE"
 msgstr "Online"
+
+msgid "MODAL_CONFIRM-ARCHIVE"
+msgstr "Archiveren"
+
+msgid "MODAL_CANCEL"
+msgstr "Annuleer"

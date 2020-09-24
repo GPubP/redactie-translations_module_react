@@ -11,12 +11,13 @@ function save(target) {
 
 const source = dir + '/template.json';
 
-i18nextToPot('nl-BE', readFileSync(source), {
+i18nextToPot('nl_BE', readFileSync(source), {
 	ctxSeparator: '__',
 	noDate: true,
 }).then(save(dir + '/template.pot'));
 
-i18nextToPo('nl-BE', readFileSync(source), {
+i18nextToPo('nl_BE', readFileSync(source), {
 	ctxSeparator: '__',
 	noDate: true,
+	language: 'nl_BE',
 }).then(save(dir + '/template.po'));

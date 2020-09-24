@@ -13,13 +13,14 @@
   "BUTTON_CREATE-NEW": "Nieuw maken",
   "BUTTON_SAVE": "Bewaar",
   "BUTTON_SAVE-NEXT": "Bewaar en ga verder",
-  "BUTTON_NEXT": "Ge verder",
+  "BUTTON_NEXT": "Ga verder",
   "BUTTON_CANCEL": "Annuleer",
   "BUTTON_ADD": "Toevoegen",
   "BUTTON_ADD-SECTION": "Sectie toevoegen",
   "BUTTON_ACTIVATE": "Activeren",
   "BUTTON_DEACTIVATE": "Deactiveren",
   "BUTTON_REMOVE": "Verwijderen",
+  "BUTTON_ARCHIVE": "Archiveren",
   "TABLE_RESULT": "Resultaten",
   "TABLE_NAME": "Naam",
   "TABLE_TYPE": "Type",
@@ -27,5 +28,7 @@
   "TABLE_LAST-MODIFIED": "Laatst bijgewerkt",
   "TABLE_AUTHOR": "Auteur",
   "TABLE_STATUS": "Status",
-  "TABLE_ONLINE": "Online"
+  "TABLE_ONLINE": "Online",
+  "MODAL_CONFIRM-ARCHIVE": "Archiveren",
+  "MODAL_CANCEL": "Annuleer"
 }

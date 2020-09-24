@@ -26,13 +26,14 @@ const CORE_TRANSLATIONS = Object.freeze({
 	'BUTTON_CREATE-NEW': tKey('BUTTON_CREATE-NEW', 'Nieuw maken'),
 	BUTTON_SAVE: tKey('BUTTON_SAVE', 'Bewaar'),
 	'BUTTON_SAVE-NEXT': tKey('BUTTON_SAVE-NEXT', 'Bewaar en ga verder'),
-	BUTTON_NEXT: tKey('BUTTON_NEXT', 'Ge verder'),
+	BUTTON_NEXT: tKey('BUTTON_NEXT', 'Ga verder'),
 	BUTTON_CANCEL: tKey('BUTTON_CANCEL', 'Annuleer'),
 	BUTTON_ADD: tKey('BUTTON_ADD', 'Toevoegen'),
 	'BUTTON_ADD-SECTION': tKey('BUTTON_ADD-SECTION', 'Sectie toevoegen'),
 	BUTTON_ACTIVATE: tKey('BUTTON_ACTIVATE', 'Activeren'),
 	BUTTON_DEACTIVATE: tKey('BUTTON_DEACTIVATE', 'Deactiveren'),
 	BUTTON_REMOVE: tKey('BUTTON_REMOVE', 'Verwijderen'),
+	BUTTON_ARCHIVE: tKey('BUTTON_ARCHIVE', 'Archiveren'),
 
 	// ------- TABLE TRANSLATIONS -------
 	TABLE_RESULT: tKey('TABLE_RESULT', 'Resultaten'),
@@ -43,6 +44,13 @@ const CORE_TRANSLATIONS = Object.freeze({
 	TABLE_AUTHOR: tKey('TABLE_AUTHOR', 'Auteur'),
 	TABLE_STATUS: tKey('TABLE_STATUS', 'Status'),
 	TABLE_ONLINE: tKey('TABLE_ONLINE', 'Online'),
+
+	// ------- MODAL TRANSLATIONS -------
+	'MODAL_CONFIRM-ARCHIVE': tKey('MODAL_CONFIRM-ARCHIVE', 'Archiveren'),
+	MODAL_CANCEL: tKey('MODAL_CANCEL', 'Annuleer'),
+
+	// ------- VALIDATION TRANSLATIONS -------
+	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', "Dit veld is verplicht")
 });
 
 export { CORE_TRANSLATIONS };
