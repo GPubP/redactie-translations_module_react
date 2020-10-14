@@ -20,7 +20,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	'STATUS_NON-ACTIVE': tKey('STATUS_NON-ACTIVE', 'Niet actief'),
 
 	// ------- REMOVE-CARD TRANSLATIONS -------
-	REMOVE_TITLE: tKey('REMOVE_TITLE', 'Verwijdern'),
+	REMOVE_TITLE: tKey('REMOVE_TITLE', 'Verwijder'),
 
 	// ------- BUTTON TRANSLATIONS -------
 	'BUTTON_CREATE-NEW': tKey('BUTTON_CREATE-NEW', 'Nieuw maken'),
