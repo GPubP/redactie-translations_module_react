@@ -93,13 +93,13 @@
     "typescript-plugin-css-modules": "2.1.2",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.6.1",
-    "webpack-cli": "3.3.10"
+    "webpack-cli": "3.3.10",
+    "ky": "0.17.0",
+    "ramda": "0.27.0"
   },
   "dependencies": {
     "i18next": "^19.4.4",
-    "ky": "0.17.0",
     "query-string": "^6.12.1",
-    "ramda": "0.27.0",
     "react-i18next": "^11.4.0"
   },
   "author": "Jeroen Valcke",

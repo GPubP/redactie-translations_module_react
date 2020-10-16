@@ -20,7 +20,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	'STATUS_NON-ACTIVE': tKey('STATUS_NON-ACTIVE', 'Niet actief'),
 
 	// ------- REMOVE-CARD TRANSLATIONS -------
-	REMOVE_TITLE: tKey('REMOVE_TITLE', 'Verwijdern'),
+	REMOVE_TITLE: tKey('REMOVE_TITLE', 'Verwijder'),
 
 	// ------- BUTTON TRANSLATIONS -------
 	'BUTTON_CREATE-NEW': tKey('BUTTON_CREATE-NEW', 'Nieuw maken'),
@@ -34,6 +34,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	BUTTON_DEACTIVATE: tKey('BUTTON_DEACTIVATE', 'Deactiveren'),
 	BUTTON_REMOVE: tKey('BUTTON_REMOVE', 'Verwijderen'),
 	BUTTON_ARCHIVE: tKey('BUTTON_ARCHIVE', 'Archiveren'),
+	BUTTON_BACK: tKey('BUTTON_BACK', 'Terug'),
 
 	// ------- TABLE TRANSLATIONS -------
 	TABLE_RESULT: tKey('TABLE_RESULT', 'Resultaten'),
@@ -50,7 +51,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	MODAL_CANCEL: tKey('MODAL_CANCEL', 'Annuleer'),
 
 	// ------- VALIDATION TRANSLATIONS -------
-	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', "Dit veld is verplicht")
+	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', 'Dit veld is verplicht'),
 });
 
 export { CORE_TRANSLATIONS };
