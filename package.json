@@ -1,6 +1,6 @@
 {
   "name": "@redactie/translations-module",
-  "version": "0.2.0",
+  "version": "0.6.0",
   "description": "redactie translations module",
   "main": "dist/redactie-translations-module.umd.js",
   "types": "dist/index.d.ts",
@@ -44,7 +44,7 @@
     "@commitlint/config-conventional": "8.3.4",
     "@datorama/akita": "4.22.0",
     "@redactie/module-webpack-plugin": "2.0.0",
-    "@redactie/redactie-core": "1.2.0",
+    "@redactie/redactie-core": "^1.9.0",
     "@testing-library/jest-dom": "5.0.2",
     "@testing-library/react": "9.4.0",
     "@types/i18next": "^13.0.0",
@@ -93,13 +93,13 @@
     "typescript-plugin-css-modules": "2.1.2",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.6.1",
-    "webpack-cli": "3.3.10"
+    "webpack-cli": "3.3.10",
+    "ky": "0.17.0",
+    "ramda": "0.27.0"
   },
   "dependencies": {
     "i18next": "^19.4.4",
-    "ky": "0.17.0",
     "query-string": "^6.12.1",
-    "ramda": "0.27.0",
     "react-i18next": "^11.4.0"
   },
   "author": "Jeroen Valcke",

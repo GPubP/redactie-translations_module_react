@@ -9,6 +9,9 @@ msgstr ""
 msgid "GENERAL_SYSTEM-NAME"
 msgstr "Systeemnaam"
 
+msgid "GENERAL_COPY"
+msgstr "Kopieer"
+
 msgid "ROUTING_UPDATE"
 msgstr "beheer"
 
@@ -33,6 +36,9 @@ msgstr "Actief"
 msgid "STATUS_NON-ACTIVE"
 msgstr "Niet actief"
 
+msgid "REMOVE_TITLE"
+msgstr "Verwijdern"
+
 msgid "BUTTON_CREATE-NEW"
 msgstr "Nieuw maken"
 
@@ -41,6 +47,9 @@ msgstr "Bewaar"
 
 msgid "BUTTON_SAVE-NEXT"
 msgstr "Bewaar en ga verder"
+
+msgid "BUTTON_NEXT"
+msgstr "Ga verder"
 
 msgid "BUTTON_CANCEL"
 msgstr "Annuleer"
@@ -57,11 +66,20 @@ msgstr "Activeren"
 msgid "BUTTON_DEACTIVATE"
 msgstr "Deactiveren"
 
+msgid "BUTTON_REMOVE"
+msgstr "Verwijderen"
+
+msgid "BUTTON_ARCHIVE"
+msgstr "Archiveren"
+
+msgid "BUTTON_BACK"
+msgstr "Terug"
+
 msgid "TABLE_RESULT"
-msgstr "Activeren"
+msgstr "Resultaten"
 
 msgid "TABLE_NAME"
-msgstr "Deactiveren"
+msgstr "Naam"
 
 msgid "TABLE_TYPE"
 msgstr "Type"
@@ -80,3 +98,12 @@ msgstr "Status"
 
 msgid "TABLE_ONLINE"
 msgstr "Online"
+
+msgid "MODAL_CONFIRM-ARCHIVE"
+msgstr "Archiveren"
+
+msgid "MODAL_CANCEL"
+msgstr "Annuleer"
+
+msgid "VALIDATION_REQUIRED"
+msgstr "Dit veld is verplicht"
