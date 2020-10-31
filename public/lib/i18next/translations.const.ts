@@ -35,6 +35,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	BUTTON_REMOVE: tKey('BUTTON_REMOVE', 'Verwijderen'),
 	BUTTON_ARCHIVE: tKey('BUTTON_ARCHIVE', 'Archiveren'),
 	BUTTON_BACK: tKey('BUTTON_BACK', 'Terug'),
+	BUTTON_UPDATE: tKey('BUTTON_UPDATE', 'Wijzig'),
 
 	// ------- TABLE TRANSLATIONS -------
 	TABLE_RESULT: tKey('TABLE_RESULT', 'Resultaten'),
