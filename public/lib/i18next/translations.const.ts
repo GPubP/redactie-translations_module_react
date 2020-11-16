@@ -46,6 +46,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	TABLE_AUTHOR: tKey('TABLE_AUTHOR', 'Auteur'),
 	TABLE_STATUS: tKey('TABLE_STATUS', 'Status'),
 	TABLE_ONLINE: tKey('TABLE_ONLINE', 'Online'),
+	'TABLE_NO-RESULTS': tKey('TABLE_NO-RESULT', 'Er zijn geen resultaten voor de ingestelde filters'),
 
 	// ------- MODAL TRANSLATIONS -------
 	'MODAL_CONFIRM-ARCHIVE': tKey('MODAL_CONFIRM-ARCHIVE', 'Archiveren'),
