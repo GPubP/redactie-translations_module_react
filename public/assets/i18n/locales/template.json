@@ -21,6 +21,7 @@
   "BUTTON_DEACTIVATE": "Deactiveren",
   "BUTTON_REMOVE": "Verwijderen",
   "BUTTON_ARCHIVE": "Archiveren",
+  "BUTTON_BACK": "Terug",
   "TABLE_RESULT": "Resultaten",
   "TABLE_NAME": "Naam",
   "TABLE_TYPE": "Type",
@@ -30,5 +31,6 @@
   "TABLE_STATUS": "Status",
   "TABLE_ONLINE": "Online",
   "MODAL_CONFIRM-ARCHIVE": "Archiveren",
-  "MODAL_CANCEL": "Annuleer"
+  "MODAL_CANCEL": "Annuleer",
+  "VALIDATION_REQUIRED": "Dit veld is verplicht"
 }

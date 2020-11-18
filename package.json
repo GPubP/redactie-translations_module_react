@@ -1,6 +1,6 @@
 {
   "name": "@redactie/translations-module",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "redactie translations module",
   "main": "dist/redactie-translations-module.umd.js",
   "types": "dist/index.d.ts",
@@ -93,7 +93,9 @@
     "typescript-plugin-css-modules": "2.1.2",
     "webpack": "4.41.5",
     "webpack-bundle-analyzer": "3.6.1",
-    "webpack-cli": "3.3.10"
+    "webpack-cli": "3.3.10",
+    "ky": "0.17.0",
+    "ramda": "0.27.0"
   },
   "dependencies": {
     "i18next": "^19.4.4",

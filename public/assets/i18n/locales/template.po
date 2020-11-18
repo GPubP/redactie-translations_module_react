@@ -73,6 +73,9 @@ msgstr "Verwijderen"
 msgid "BUTTON_ARCHIVE"
 msgstr "Archiveren"
 
+msgid "BUTTON_BACK"
+msgstr "Terug"
+
 msgid "TABLE_RESULT"
 msgstr "Resultaten"
 
@@ -102,3 +105,6 @@ msgstr "Archiveren"
 
 msgid "MODAL_CANCEL"
 msgstr "Annuleer"
+
+msgid "VALIDATION_REQUIRED"
+msgstr "Dit veld is verplicht"
