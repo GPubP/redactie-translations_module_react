@@ -50,7 +50,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	MODAL_CANCEL: tKey('MODAL_CANCEL', 'Annuleer'),
 
 	// ------- VALIDATION TRANSLATIONS -------
-	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', "Dit veld is verplicht")
+	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', 'Dit veld is verplicht'),
 });
 
 export { CORE_TRANSLATIONS };

@@ -98,7 +98,7 @@
   "dependencies": {
     "i18next": "^19.4.4",
     "ky": "0.17.0",
-    "query-string": "^6.12.1",
+    "query-string": "6.12.1",
     "ramda": "0.27.0",
     "react-i18next": "^11.4.0"
   },
