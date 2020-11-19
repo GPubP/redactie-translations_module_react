@@ -1,6 +1,6 @@
 {
   "name": "@redactie/translations-module",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "redactie translations module",
   "main": "dist/redactie-translations-module.umd.js",
   "types": "dist/index.d.ts",
@@ -99,7 +99,9 @@
   },
   "dependencies": {
     "i18next": "^19.4.4",
-    "query-string": "^6.12.1",
+    "ky": "0.17.0",
+    "query-string": "6.12.1",
+    "ramda": "0.27.0",
     "react-i18next": "^11.4.0"
   },
   "author": "Jeroen Valcke",
