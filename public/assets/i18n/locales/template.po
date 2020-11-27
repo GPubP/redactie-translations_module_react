@@ -38,7 +38,7 @@ msgid "STATUS_NON-ACTIVE"
 msgstr "Niet actief"
 
 msgid "REMOVE_TITLE"
-msgstr "Verwijdern"
+msgstr "Verwijder"
 
 msgid "BUTTON_BACK-TO-OVERVIEW"
 msgstr "Terug naar overzicht"
@@ -79,6 +79,9 @@ msgstr "Archiveren"
 msgid "BUTTON_BACK"
 msgstr "Terug"
 
+msgid "BUTTON_UPDATE"
+msgstr "Wijzig"
+
 msgid "TABLE_RESULT"
 msgstr "Resultaten"
 
@@ -102,6 +105,9 @@ msgstr "Status"
 
 msgid "TABLE_ONLINE"
 msgstr "Online"
+
+msgid "TABLE_NO-RESULT"
+msgstr "Er zijn geen resultaten voor de ingestelde filters"
 
 msgid "MODAL_CONFIRM-ARCHIVE"
 msgstr "Archiveren"
