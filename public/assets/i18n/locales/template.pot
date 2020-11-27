@@ -78,6 +78,9 @@ msgstr "Terug"
 msgid "BUTTON_UPDATE"
 msgstr "Wijzig"
 
+msgid "BUTTON_BACK-TO-OVERVIEW"
+msgstr "Terug naar overzicht"
+
 msgid "TABLE_RESULT"
 msgstr "Resultaten"
 
