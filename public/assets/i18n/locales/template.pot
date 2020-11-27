@@ -39,9 +39,6 @@ msgstr "Niet actief"
 msgid "REMOVE_TITLE"
 msgstr "Verwijder"
 
-msgid "BUTTON_BACK-TO-OVERVIEW"
-msgstr "Terug naar overzicht"
-
 msgid "BUTTON_CREATE-NEW"
 msgstr "Nieuw maken"
 
@@ -80,6 +77,9 @@ msgstr "Terug"
 
 msgid "BUTTON_UPDATE"
 msgstr "Wijzig"
+
+msgid "BUTTON_BACK-TO-OVERVIEW"
+msgstr "Terug naar overzicht"
 
 msgid "TABLE_RESULT"
 msgstr "Resultaten"
