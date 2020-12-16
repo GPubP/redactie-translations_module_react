@@ -1,11 +1,7 @@
 import { registerTranslationsAPI } from './lib/api';
-import { interfaceTranslationService } from './lib/store/interfaceTranslations';
-import { translationsService } from './lib/store/translations';
+import { setupCoreTranslations } from './lib/helpers';
 
-interfaceTranslationService
-	.setCoreTranslation()
-	.then(() => translationsService.getCoreTranslationFile('nl_BE'));
-
+setupCoreTranslations();
 registerTranslationsAPI();
 
 export * from './lib/api/api.types';
