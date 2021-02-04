@@ -33,6 +33,7 @@
   "TABLE_STATUS": "Status",
   "TABLE_ONLINE": "Online",
   "TABLE_NO-RESULT": "Er zijn geen resultaten voor de ingestelde filters",
+  "TABLE_NO-DESCRIPTION": "Geen beschrijving",
   "MODAL_CONFIRM-ARCHIVE": "Archiveren",
   "MODAL_CANCEL": "Annuleer",
   "VALIDATION_REQUIRED": "Dit veld is verplicht"

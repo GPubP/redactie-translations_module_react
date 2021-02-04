@@ -108,6 +108,9 @@ msgstr "Online"
 msgid "TABLE_NO-RESULT"
 msgstr "Er zijn geen resultaten voor de ingestelde filters"
 
+msgid "TABLE_NO-DESCRIPTION"
+msgstr "Geen beschrijving"
+
 msgid "MODAL_CONFIRM-ARCHIVE"
 msgstr "Archiveren"
 
