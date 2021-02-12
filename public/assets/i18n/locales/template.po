@@ -14,7 +14,7 @@ msgid "GENERAL_COPY"
 msgstr "Kopieer"
 
 msgid "ROUTING_UPDATE"
-msgstr "beheer"
+msgstr "bewerken"
 
 msgid "ROUTING_CREATE"
 msgstr "aanmaken"

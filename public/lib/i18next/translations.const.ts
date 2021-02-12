@@ -6,7 +6,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	GENERAL_COPY: tKey('GENERAL_COPY', 'Kopieer'),
 
 	// ------- ROUTING TRANSLATIONS -------
-	ROUTING_UPDATE: tKey('ROUTING_UPDATE', 'beheer'),
+	ROUTING_UPDATE: tKey('ROUTING_UPDATE', 'bewerken'),
 	ROUTING_CREATE: tKey('ROUTING_CREATE', 'aanmaken'),
 
 	// ------- FILTER TRANSLATIONS -------
