@@ -56,6 +56,8 @@ const CORE_TRANSLATIONS = Object.freeze({
 	// ------- MODAL TRANSLATIONS -------
 	'MODAL_CONFIRM-ARCHIVE': tKey('MODAL_CONFIRM-ARCHIVE', 'Archiveren'),
 	MODAL_CANCEL: tKey('MODAL_CANCEL', 'Annuleer'),
+	'MODAL_CONFIRM-REMOVE': tKey('MODAL_CONFIRM-REMOVE', 'Ja, verwijder'),
+	'MODAL_TITLE-REMOVE': tKey('MODAL_TITLE-REMOVE', 'Verwijderen?'),
 
 	// ------- VALIDATION TRANSLATIONS -------
 	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', 'Dit veld is verplicht'),

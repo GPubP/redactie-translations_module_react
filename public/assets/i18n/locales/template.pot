@@ -117,5 +117,11 @@ msgstr "Archiveren"
 msgid "MODAL_CANCEL"
 msgstr "Annuleer"
 
+msgid "MODAL_CONFIRM-REMOVE"
+msgstr "Ja, verwijder"
+
+msgid "MODAL_TITLE-REMOVE"
+msgstr "Verwijderen?"
+
 msgid "VALIDATION_REQUIRED"
 msgstr "Dit veld is verplicht"

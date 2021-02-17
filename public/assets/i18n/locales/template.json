@@ -36,5 +36,7 @@
   "TABLE_NO-DESCRIPTION": "Geen beschrijving",
   "MODAL_CONFIRM-ARCHIVE": "Archiveren",
   "MODAL_CANCEL": "Annuleer",
+  "MODAL_CONFIRM-REMOVE": "Ja, verwijder",
+  "MODAL_TITLE-REMOVE": "Verwijderen?",
   "VALIDATION_REQUIRED": "Dit veld is verplicht"
 }
