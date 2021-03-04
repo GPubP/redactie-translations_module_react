@@ -52,7 +52,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 		'Er zijn geen resultaten voor de ingestelde filters'
 	),
 	'TABLE_NO-DESCRIPTION': tKey('TABLE_NO-DESCRIPTION', 'Geen beschrijving'),
-	'ITEMS_NO-RESULT': tKey('ITEMS_NO-RESULT', 'Er zijn geen items om weer te geven'),
+	'TABLE_NO-ITEMS': tKey('TABLE_NO-ITEMS', 'Er zijn geen items om weer te geven'),
 
 	// ------- MODAL TRANSLATIONS -------
 	'MODAL_CONFIRM-ARCHIVE': tKey('MODAL_CONFIRM-ARCHIVE', 'Archiveren'),
