@@ -1,8 +1,11 @@
+import Core from '@redactie/redactie-core';
 import { stringify } from 'query-string';
 
 import { api } from '../api';
 
 import { TranslationFile } from './translationFiles.service.types';
+
+const CoreConfig = Core.config.getValue('core') || {};
 
 export const getInterfaceTranslationFile = async (
 	uuid: string,
@@ -10,8 +13,10 @@ export const getInterfaceTranslationFile = async (
 	type = 'json'
 ): Promise<TranslationFile | null> => {
 	try {
+		const t = CoreConfig.tenantId;
+
 		const response: TranslationFile = await api
-			.get(`translations/download/${uuid}?${stringify({ lang, type })}`)
+			.get(`translations/download/${uuid}?${stringify({ lang, type, t })}`)
 			.json();
 
 		if (!response) {
