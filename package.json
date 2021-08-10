@@ -98,6 +98,7 @@
     "ramda": "0.27.0"
   },
   "dependencies": {
+    "@wcm/paging-package-nodejs": "^2.0.6",
     "i18next": "^19.4.4",
     "ky": "0.17.0",
     "query-string": "6.12.1",

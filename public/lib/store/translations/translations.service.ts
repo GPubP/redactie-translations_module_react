@@ -33,10 +33,10 @@ export class TranslationsService {
 		}
 
 		translation
-			? this.updateTranslation('core', lang, translationFile[lang])
-			: this.addTranslation('core', lang, translationFile[lang]);
+			? this.updateTranslation('core', lang, translationFile)
+			: this.addTranslation('core', lang, translationFile);
 
-		return translationFile[lang] as I18NextTranslations;
+		return translationFile;
 	}
 
 	private updateTranslation(id: string, lang: string, translation: I18NextTranslations): void {
