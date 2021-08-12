@@ -1,3 +1,4 @@
+import { PaginatedResponse } from '@wcm/paging-package-nodejs';
 export interface TranslationMetaSchema {
 	_id: string;
 	lastModified: string;
@@ -14,4 +15,8 @@ export interface TranslationSchema {
 	name: string;
 	translations: TranslationMetaSchema[];
 	uuid: string;
+}
+
+export interface TranslationSchemaResponse extends PaginatedResponse {
+	_embedded: TranslationSchema[];
 }

@@ -3,7 +3,7 @@ import { stringify } from 'query-string';
 
 import { api } from '../api';
 
-import { TranslationFile } from './translationFiles.service.types';
+import { I18NextTranslations } from './translationFiles.service.types';
 
 const CoreConfig = Core.config.getValue('core') || {};
 
@@ -11,12 +11,12 @@ export const getInterfaceTranslationFile = async (
 	uuid: string,
 	lang: string,
 	type = 'json'
-): Promise<TranslationFile | null> => {
+): Promise<I18NextTranslations | null> => {
 	try {
 		const t = CoreConfig.tenantId;
 
-		const response: TranslationFile = await api
-			.get(`translations/download/${uuid}?${stringify({ lang, type, t })}`)
+		const response: I18NextTranslations = await api
+			.get(`translations/${uuid}/download?${stringify({ lang, type, t })}`)
 			.json();
 
 		if (!response) {
