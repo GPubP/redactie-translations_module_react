@@ -39,7 +39,7 @@ export class TranslationsService {
 		return translationFile;
 	}
 
-	private updateTranslation(id: string, lang: string, translation: I18NextTranslations): void {
+	public updateTranslation(id: string, lang: string, translation: I18NextTranslations): void {
 		this.store.update(id, {
 			id,
 			translation: {
@@ -48,7 +48,7 @@ export class TranslationsService {
 		});
 	}
 
-	private addTranslation(id: string, lang: string, translation: I18NextTranslations): void {
+	public addTranslation(id: string, lang: string, translation: I18NextTranslations): void {
 		this.store.add({
 			id,
 			translation: {
