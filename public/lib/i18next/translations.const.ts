@@ -24,7 +24,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 
 	// ------- BUTTON TRANSLATIONS -------
 	'BUTTON_CREATE-NEW': tKey('BUTTON_CREATE-NEW', 'Nieuw maken'),
-	BUTTON_SAVE: tKey('BUTTON_SAVE', 'Bewaar'),
+	BUTTON_SAVE: tKey('BUTTON_SAVE', 'Bewaren'),
 	'BUTTON_SAVE-NEXT': tKey('BUTTON_SAVE-NEXT', 'Bewaar en ga verder'),
 	BUTTON_NEXT: tKey('BUTTON_NEXT', 'Ga verder'),
 	BUTTON_CANCEL: tKey('BUTTON_CANCEL', 'Annuleer'),
@@ -43,7 +43,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	TABLE_NAME: tKey('TABLE_NAME', 'Naam'),
 	TABLE_TYPE: tKey('TABLE_TYPE', 'Type'),
 	TABLE_DESCRIPTION: tKey('TABLE_DESCRIPTION', 'Beschrijving'),
-	'TABLE_LAST-MODIFIED': tKey('TABLE_LAST-MODIFIED', 'Laatst bijgewerkt'),
+	'TABLE_LAST-MODIFIED': tKey('TABLE_LAST-MODIFIED', 'Laatst bewerkt op'),
 	TABLE_AUTHOR: tKey('TABLE_AUTHOR', 'Auteur'),
 	TABLE_STATUS: tKey('TABLE_STATUS', 'Status'),
 	TABLE_ONLINE: tKey('TABLE_ONLINE', 'Online'),

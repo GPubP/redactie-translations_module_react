@@ -43,7 +43,7 @@ msgid "BUTTON_CREATE-NEW"
 msgstr "Nieuw maken"
 
 msgid "BUTTON_SAVE"
-msgstr "Bewaar"
+msgstr "Bewaren"
 
 msgid "BUTTON_SAVE-NEXT"
 msgstr "Bewaar en ga verder"
@@ -94,7 +94,7 @@ msgid "TABLE_DESCRIPTION"
 msgstr "Beschrijving"
 
 msgid "TABLE_LAST-MODIFIED"
-msgstr "Laatst bijgewerkt"
+msgstr "Laatst bewerkt op"
 
 msgid "TABLE_AUTHOR"
 msgstr "Auteur"
