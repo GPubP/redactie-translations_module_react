@@ -43,7 +43,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	TABLE_NAME: tKey('TABLE_NAME', 'Naam'),
 	TABLE_TYPE: tKey('TABLE_TYPE', 'Type'),
 	TABLE_DESCRIPTION: tKey('TABLE_DESCRIPTION', 'Beschrijving'),
-	'TABLE_LAST-MODIFIED': tKey('TABLE_LAST-MODIFIED', 'Laatst bewerkt op'),
+	'TABLE_LAST-MODIFIED': tKey('TABLE_LAST-MODIFIED', 'Laatst bijgewerkt op'),
 	TABLE_AUTHOR: tKey('TABLE_AUTHOR', 'Auteur'),
 	TABLE_STATUS: tKey('TABLE_STATUS', 'Status'),
 	TABLE_ONLINE: tKey('TABLE_ONLINE', 'Online'),

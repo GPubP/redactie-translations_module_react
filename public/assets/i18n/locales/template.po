@@ -95,7 +95,7 @@ msgid "TABLE_DESCRIPTION"
 msgstr "Beschrijving"
 
 msgid "TABLE_LAST-MODIFIED"
-msgstr "Laatst bewerkt op"
+msgstr "Laatst bijgewerkt op"
 
 msgid "TABLE_AUTHOR"
 msgstr "Auteur"
