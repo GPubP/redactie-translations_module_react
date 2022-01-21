@@ -1,6 +1,7 @@
 import Core from '@redactie/redactie-core';
 
 import { tKey } from '../i18next/tKey';
+import { translate } from '../i18next/translate';
 import { CORE_TRANSLATIONS } from '../i18next/translations.const';
 
 import { addTranslation } from './addTranslation';
@@ -22,5 +23,6 @@ export const registerTranslationsAPI = (): void =>
 			addTranslation,
 			updateTranslation,
 			useTranslation,
+			translate,
 		},
 	} as TranslationsAPI);
