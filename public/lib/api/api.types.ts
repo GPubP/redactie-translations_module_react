@@ -1,4 +1,5 @@
 import { tKey } from '../i18next/tKey';
+import { translate } from '../i18next/translate';
 import { CORE_TRANSLATIONS } from '../i18next/translations.const';
 import { TranslateFunc } from '../i18next/useTranslation';
 import { TranslationMetaSchema, TranslationSchema } from '../services/interfaceTranslations';
@@ -19,6 +20,7 @@ export interface TranslationsAPI {
 		addTranslation: typeof addTranslation;
 		updateTranslation: typeof updateTranslation;
 		useTranslation: typeof useTranslation;
+		translate: typeof translate;
 	};
 }
 
