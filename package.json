@@ -1,6 +1,6 @@
 {
   "name": "@redactie/translations-module",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "redactie translations module",
   "main": "dist/redactie-translations-module.umd.js",
   "types": "dist/index.d.ts",
