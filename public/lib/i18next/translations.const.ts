@@ -4,6 +4,9 @@ const CORE_TRANSLATIONS = Object.freeze({
 	// ------- GENERAL TRANSLATIONS -------
 	'GENERAL_SYSTEM-NAME': tKey('GENERAL_SYSTEM-NAME', 'Systeemnaam'),
 	GENERAL_COPY: tKey('GENERAL_COPY', 'Kopieer'),
+	DESCRIPTION: tKey('DESCRIPTION', 'Beschrijving'),
+	EXAMPLE: tKey('EXAMPLE', 'Voorbeeld'),
+	CONFIRM: tKey('CONFIRM', 'Bevestigen'),
 
 	// ------- ROUTING TRANSLATIONS -------
 	ROUTING_UPDATE: tKey('ROUTING_UPDATE', 'bewerken'),
@@ -59,6 +62,7 @@ const CORE_TRANSLATIONS = Object.freeze({
 	MODAL_CANCEL: tKey('MODAL_CANCEL', 'Annuleer'),
 	'MODAL_CONFIRM-REMOVE': tKey('MODAL_CONFIRM-REMOVE', 'Ja, verwijder'),
 	'MODAL_TITLE-REMOVE': tKey('MODAL_TITLE-REMOVE', 'Verwijderen?'),
+	MODAL_CONFIRM: tKey('MODAL_CONFIRM', 'Ja, ok'),
 
 	// ------- VALIDATION TRANSLATIONS -------
 	VALIDATION_REQUIRED: tKey('VALIDATION_REQUIRED', 'Dit veld is verplicht'),

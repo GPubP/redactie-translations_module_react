@@ -1,6 +1,9 @@
 {
   "GENERAL_SYSTEM-NAME": "Systeemnaam",
   "GENERAL_COPY": "Kopieer",
+  "DESCRIPTION": "Beschrijving",
+  "EXAMPLE": "Voorbeeld",
+  "CONFIRM": "Bevestigen",
   "ROUTING_UPDATE": "bewerken",
   "ROUTING_CREATE": "aanmaken",
   "FILTER_TITLE": "Filter",
@@ -39,5 +42,6 @@
   "MODAL_CANCEL": "Annuleer",
   "MODAL_CONFIRM-REMOVE": "Ja, verwijder",
   "MODAL_TITLE-REMOVE": "Verwijderen?",
+  "MODAL_CONFIRM": "Ja, ok",
   "VALIDATION_REQUIRED": "Dit veld is verplicht"
 }
