@@ -12,6 +12,15 @@ msgstr "Systeemnaam"
 msgid "GENERAL_COPY"
 msgstr "Kopieer"
 
+msgid "DESCRIPTION"
+msgstr "Beschrijving"
+
+msgid "EXAMPLE"
+msgstr "Voorbeeld"
+
+msgid "CONFIRM"
+msgstr "Bevestigen"
+
 msgid "ROUTING_UPDATE"
 msgstr "bewerken"
 
@@ -125,6 +134,9 @@ msgstr "Ja, verwijder"
 
 msgid "MODAL_TITLE-REMOVE"
 msgstr "Verwijderen?"
+
+msgid "MODAL_CONFIRM"
+msgstr "Ja, ok"
 
 msgid "VALIDATION_REQUIRED"
 msgstr "Dit veld is verplicht"
