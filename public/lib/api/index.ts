@@ -11,18 +11,22 @@ import { updateTranslation } from './updateTranslation';
 import { useCoreTranslation } from './useCoreTranslation';
 import { useTranslation } from './useTranslation';
 
+const API: TranslationsAPI = {
+	core: {
+		getTranslationFile: (lang: string) => getCoreTranslationFile(lang),
+		useTranslation: useCoreTranslation,
+		CORE_TRANSLATIONS,
+		tKey,
+	},
+	modules: {
+		addTranslation,
+		updateTranslation,
+		useTranslation,
+		translate,
+	},
+};
+
 export const registerTranslationsAPI = (): void =>
-	Core.modules.exposeModuleApi('translations-module', {
-		core: {
-			getTranslationFile: (lang: string) => getCoreTranslationFile(lang),
-			useTranslation: useCoreTranslation,
-			CORE_TRANSLATIONS,
-			tKey,
-		},
-		modules: {
-			addTranslation,
-			updateTranslation,
-			useTranslation,
-			translate,
-		},
-	} as TranslationsAPI);
+	Core.modules.exposeModuleApi('translations-module', API);
+
+export { API };
