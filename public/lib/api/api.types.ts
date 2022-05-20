@@ -9,19 +9,23 @@ import { addTranslation } from './addTranslation';
 import { updateTranslation } from './updateTranslation';
 import { useTranslation } from './useTranslation';
 
-export interface TranslationsAPI {
-	core: {
+export interface TranslationsAPICore {
 		getTranslationFile: (lang: string) => Promise<I18NextTranslations | null>;
 		useTranslation: (lang: string) => [TranslateFunc];
 		CORE_TRANSLATIONS: typeof CORE_TRANSLATIONS;
 		tKey: typeof tKey;
-	};
-	modules: {
-		addTranslation: typeof addTranslation;
-		updateTranslation: typeof updateTranslation;
-		useTranslation: typeof useTranslation;
-		translate: typeof translate;
-	};
+}
+
+export interface TranslationsAPIModules {
+	addTranslation: typeof addTranslation;
+	updateTranslation: typeof updateTranslation;
+	useTranslation: typeof useTranslation;
+	translate: typeof translate;
+}
+
+export interface TranslationsAPI{
+	core: TranslationsAPICore;
+	modules: TranslationsAPIModules;
 }
 
 export {
