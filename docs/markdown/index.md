@@ -8,6 +8,8 @@
 - [TranslationMetaSchema](../wiki/index.TranslationMetaSchema)
 - [TranslationSchema](../wiki/index.TranslationSchema)
 - [TranslationsAPI](../wiki/index.TranslationsAPI)
+- [TranslationsAPICore](../wiki/index.TranslationsAPICore)
+- [TranslationsAPIModules](../wiki/index.TranslationsAPIModules)
 
 ### Type aliases
 
