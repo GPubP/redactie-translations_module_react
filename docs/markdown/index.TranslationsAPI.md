@@ -6,8 +6,8 @@
 
 ### Properties
 
-- [core](../wiki/index.TranslationsAPI#core-1)
-- [modules](../wiki/index.TranslationsAPI#modules-1)
+- [core](../wiki/index.TranslationsAPI#core)
+- [modules](../wiki/index.TranslationsAPI#modules)
 
 ## Properties
 

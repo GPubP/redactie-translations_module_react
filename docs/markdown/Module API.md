@@ -4,8 +4,8 @@
 
 ### Variables
 
-- [core](../wiki/Module%20API#core-1)
-- [modules](../wiki/Module%20API#modules-1)
+- [core](../wiki/Module%20API#core)
+- [modules](../wiki/Module%20API#modules)
 
 ## Variables
 

@@ -4,4 +4,4 @@
 
 ## Indexable
 
-▪ [lang: `string`]: [`I18NextTranslations`](../wiki/index#i18nexttranslations-1)
+▪ [lang: `string`]: [`I18NextTranslations`](../wiki/index#i18nexttranslations)

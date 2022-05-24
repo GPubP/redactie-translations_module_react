@@ -6,13 +6,13 @@
 
 ### Properties
 
-- [CORE\_TRANSLATIONS](../wiki/index.TranslationsAPICore#core_translations-1)
-- [tKey](../wiki/index.TranslationsAPICore#tkey-1)
+- [CORE\_TRANSLATIONS](../wiki/index.TranslationsAPICore#core_translations)
+- [tKey](../wiki/index.TranslationsAPICore#tkey)
 
 ### Methods
 
-- [getTranslationFile](../wiki/index.TranslationsAPICore#gettranslationfile-1)
-- [useTranslation](../wiki/index.TranslationsAPICore#usetranslation-1)
+- [getTranslationFile](../wiki/index.TranslationsAPICore#gettranslationfile)
+- [useTranslation](../wiki/index.TranslationsAPICore#usetranslation)
 
 ## Properties
 
@@ -55,7 +55,7 @@ lib/api/api.types.ts:16
 
 ### getTranslationFile
 
-▸ **getTranslationFile**(`lang`): `Promise`<``null`` \| [`I18NextTranslations`](../wiki/index#i18nexttranslations-1)\>
+▸ **getTranslationFile**(`lang`): `Promise`<``null`` \| [`I18NextTranslations`](../wiki/index#i18nexttranslations)\>
 
 #### Parameters
 
@@ -65,7 +65,7 @@ lib/api/api.types.ts:16
 
 #### Returns
 
-`Promise`<``null`` \| [`I18NextTranslations`](../wiki/index#i18nexttranslations-1)\>
+`Promise`<``null`` \| [`I18NextTranslations`](../wiki/index#i18nexttranslations)\>
 
 #### Defined in
 
@@ -75,7 +75,7 @@ ___
 
 ### useTranslation
 
-▸ **useTranslation**(`lang`): [[`TranslateFunc`](../wiki/index#translatefunc-1)]
+▸ **useTranslation**(`lang`): [[`TranslateFunc`](../wiki/index#translatefunc)]
 
 #### Parameters
 
@@ -85,7 +85,7 @@ ___
 
 #### Returns
 
-[[`TranslateFunc`](../wiki/index#translatefunc-1)]
+[[`TranslateFunc`](../wiki/index#translatefunc)]
 
 #### Defined in
 
