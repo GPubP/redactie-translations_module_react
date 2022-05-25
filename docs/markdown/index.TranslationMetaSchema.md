@@ -6,12 +6,12 @@
 
 ### Properties
 
-- [\_id](../wiki/index.TranslationMetaSchema#_id-1)
-- [active](../wiki/index.TranslationMetaSchema#active-1)
-- [json](../wiki/index.TranslationMetaSchema#json-1)
-- [language](../wiki/index.TranslationMetaSchema#language-1)
-- [lastModified](../wiki/index.TranslationMetaSchema#lastmodified-1)
-- [po](../wiki/index.TranslationMetaSchema#po-1)
+- [\_id](../wiki/index.TranslationMetaSchema#_id)
+- [active](../wiki/index.TranslationMetaSchema#active)
+- [json](../wiki/index.TranslationMetaSchema#json)
+- [language](../wiki/index.TranslationMetaSchema#language)
+- [lastModified](../wiki/index.TranslationMetaSchema#lastmodified)
+- [po](../wiki/index.TranslationMetaSchema#po)
 
 ## Properties
 

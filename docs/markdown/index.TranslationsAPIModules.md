@@ -6,16 +6,16 @@
 
 ### Properties
 
-- [addTranslation](../wiki/index.TranslationsAPIModules#addtranslation-1)
-- [translate](../wiki/index.TranslationsAPIModules#translate-1)
-- [updateTranslation](../wiki/index.TranslationsAPIModules#updatetranslation-1)
-- [useTranslation](../wiki/index.TranslationsAPIModules#usetranslation-1)
+- [addTranslation](../wiki/index.TranslationsAPIModules#addtranslation)
+- [translate](../wiki/index.TranslationsAPIModules#translate)
+- [updateTranslation](../wiki/index.TranslationsAPIModules#updatetranslation)
+- [useTranslation](../wiki/index.TranslationsAPIModules#usetranslation)
 
 ## Properties
 
 ### addTranslation
 
-• **addTranslation**: (`id`: `string`, `lang`: `string`, `translation`: [`I18NextTranslations`](../wiki/index#i18nexttranslations-1)) => `void`
+• **addTranslation**: (`id`: `string`, `lang`: `string`, `translation`: [`I18NextTranslations`](../wiki/index#i18nexttranslations)) => `void`
 
 #### Type declaration
 
@@ -27,7 +27,7 @@
 | :------ | :------ |
 | `id` | `string` |
 | `lang` | `string` |
-| `translation` | [`I18NextTranslations`](../wiki/index#i18nexttranslations-1) |
+| `translation` | [`I18NextTranslations`](../wiki/index#i18nexttranslations) |
 
 ##### Returns
 
@@ -67,7 +67,7 @@ ___
 
 ### updateTranslation
 
-• **updateTranslation**: (`id`: `string`, `lang`: `string`, `translation`: [`I18NextTranslations`](../wiki/index#i18nexttranslations-1)) => `void`
+• **updateTranslation**: (`id`: `string`, `lang`: `string`, `translation`: [`I18NextTranslations`](../wiki/index#i18nexttranslations)) => `void`
 
 #### Type declaration
 
@@ -79,7 +79,7 @@ ___
 | :------ | :------ |
 | `id` | `string` |
 | `lang` | `string` |
-| `translation` | [`I18NextTranslations`](../wiki/index#i18nexttranslations-1) |
+| `translation` | [`I18NextTranslations`](../wiki/index#i18nexttranslations) |
 
 ##### Returns
 
@@ -93,11 +93,11 @@ ___
 
 ### useTranslation
 
-• **useTranslation**: (`id`: `string`, `lang`: `string`) => [[`TranslateFunc`](../wiki/index#translatefunc-1)]
+• **useTranslation**: (`id`: `string`, `lang`: `string`) => [[`TranslateFunc`](../wiki/index#translatefunc)]
 
 #### Type declaration
 
-▸ (`id`, `lang`): [[`TranslateFunc`](../wiki/index#translatefunc-1)]
+▸ (`id`, `lang`): [[`TranslateFunc`](../wiki/index#translatefunc)]
 
 ##### Parameters
 
@@ -108,7 +108,7 @@ ___
 
 ##### Returns
 
-[[`TranslateFunc`](../wiki/index#translatefunc-1)]
+[[`TranslateFunc`](../wiki/index#translatefunc)]
 
 #### Defined in
 

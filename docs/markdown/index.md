@@ -13,8 +13,8 @@
 
 ### Type aliases
 
-- [I18NextTranslations](../wiki/index#i18nexttranslations-1)
-- [TranslateFunc](../wiki/index#translatefunc-1)
+- [I18NextTranslations](../wiki/index#i18nexttranslations)
+- [TranslateFunc](../wiki/index#translatefunc)
 
 ## Type aliases
 
