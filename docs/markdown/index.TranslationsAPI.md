@@ -17,7 +17,7 @@
 
 #### Defined in
 
-lib/api/api.types.ts:27
+lib/api/api.types.ts:29
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-lib/api/api.types.ts:28
+lib/api/api.types.ts:30

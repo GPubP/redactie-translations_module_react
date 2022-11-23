@@ -7,6 +7,7 @@
 ### Properties
 
 - [CORE\_TRANSLATIONS](../wiki/index.TranslationsAPICore#core_translations)
+- [getActiveLanguage](../wiki/index.TranslationsAPICore#getactivelanguage)
 - [tKey](../wiki/index.TranslationsAPICore#tkey)
 
 ### Methods
@@ -22,7 +23,27 @@
 
 #### Defined in
 
-lib/api/api.types.ts:15
+lib/api/api.types.ts:16
+
+___
+
+### getActiveLanguage
+
+• **getActiveLanguage**: () => ``null`` \| `string`
+
+#### Type declaration
+
+▸ (): ``null`` \| `string`
+
+**`function`** getActiveLanguage Gives the active interface language key. For now only 'nl_BE' will be returned.
+
+##### Returns
+
+``null`` \| `string`
+
+#### Defined in
+
+lib/api/api.types.ts:18
 
 ___
 
@@ -49,7 +70,7 @@ ___
 
 #### Defined in
 
-lib/api/api.types.ts:16
+lib/api/api.types.ts:17
 
 ## Methods
 
@@ -69,7 +90,7 @@ lib/api/api.types.ts:16
 
 #### Defined in
 
-lib/api/api.types.ts:13
+lib/api/api.types.ts:14
 
 ___
 
@@ -89,4 +110,4 @@ ___
 
 #### Defined in
 
-lib/api/api.types.ts:14
+lib/api/api.types.ts:15
