@@ -6,14 +6,16 @@ import { TranslationMetaSchema, TranslationSchema } from '../services/interfaceT
 import { I18NextTranslations, TranslationFile } from '../services/translationFiles';
 
 import { addTranslation } from './addTranslation';
+import { getActiveLanguage } from './getActiveLanguage';
 import { updateTranslation } from './updateTranslation';
 import { useTranslation } from './useTranslation';
 
 export interface TranslationsAPICore {
-		getTranslationFile: (lang: string) => Promise<I18NextTranslations | null>;
-		useTranslation: (lang: string) => [TranslateFunc];
-		CORE_TRANSLATIONS: typeof CORE_TRANSLATIONS;
-		tKey: typeof tKey;
+	getTranslationFile: (lang: string) => Promise<I18NextTranslations | null>;
+	useTranslation: (lang: string) => [TranslateFunc];
+	CORE_TRANSLATIONS: typeof CORE_TRANSLATIONS;
+	tKey: typeof tKey;
+	getActiveLanguage: typeof getActiveLanguage;
 }
 
 export interface TranslationsAPIModules {
@@ -23,7 +25,7 @@ export interface TranslationsAPIModules {
 	translate: typeof translate;
 }
 
-export interface TranslationsAPI{
+export interface TranslationsAPI {
 	core: TranslationsAPICore;
 	modules: TranslationsAPIModules;
 }

@@ -35,7 +35,7 @@
 
 #### Defined in
 
-lib/api/api.types.ts:20
+lib/api/api.types.ts:22
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-lib/api/api.types.ts:23
+lib/api/api.types.ts:25
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-lib/api/api.types.ts:21
+lib/api/api.types.ts:23
 
 ___
 
@@ -112,4 +112,4 @@ ___
 
 #### Defined in
 
-lib/api/api.types.ts:22
+lib/api/api.types.ts:24

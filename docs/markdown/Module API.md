@@ -15,7 +15,7 @@
 
 #### Defined in
 
-lib/api/api.ts:15
+lib/api/api.ts:16
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-lib/api/api.ts:22
+lib/api/api.ts:24
